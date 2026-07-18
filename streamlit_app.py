@@ -37,7 +37,6 @@ DB_PATH = BASE_DIR / DB_FOLDER_NAME
 def get_professor_response(user_input: str, history: list) -> str:
     context_str = ""
     
-    # تحميل قاعدة البيانات بذكاء وبدون استهلاك الرام بموديلات محليّة ضخمة
     if os.path.exists(DB_PATH):
         try:
             from langchain_community.vectorstores import FAISS
@@ -52,43 +51,57 @@ def get_professor_response(user_input: str, history: list) -> str:
                     return genai.embed_content(model="models/embedding-001", content=text)["embedding"]
             
             vector_db = FAISS.load_local(str(DB_PATH), GeminiEmbeddingsWrapper(), allow_dangerous_deserialization=True)
-            results = vector_db.similarity_search(user_input, k=4)
+            results = vector_db.similarity_search(user_input, k=6)
+            seen = set()
+            unique = []
+            for doc in results:
+                key = doc.page_content[:100]
+                if key not in seen:
+                    seen.add(key)
+                    unique.append(doc)
             context_str = "\n\n".join([
                 f"[Source: {doc.metadata.get('source_type')} | Page: {doc.metadata.get('page_number')}]\n{doc.page_content}"
-                for doc in results
+                for doc in unique
             ])
         except Exception as e:
             print(f"DB Search Error: {e}")
 
-    system_instruction = f"""
-    You are the AI Professor for {CLUB_INFO['name']} at {CLUB_INFO['school']}.
+    system_instruction = f"""You are the AI Professor for {CLUB_INFO['name']} at {CLUB_INFO['school']}.
 
-    TEXTBOOK CONTEXT:
-    {context_str}
+## TEXTBOOK CONTEXT
+{context_str}
 
-    **YOUR ROLE:**
-    - Provide clear, accurate geology explanations based on textbook content
-    - Evaluate exam answers with precision
-    - Generate high-quality quizzes from course material
-    - Always cite Source and Page number when available
+## YOUR ROLE
+- Answer geology questions **exclusively** using the provided TEXTBOOK CONTEXT above
+- If the context lacks the answer, say "This isn't covered in the textbook" — never make up information
+- Cite **every** factual claim with its source: [Page X] or [Source: type | Page: X]
+- Use **bold** for key geology terms, `important` concepts, and definitions
+- For explanations: dig deep into mechanisms, processes, and cause-effect chains
+- For definitions: state concisely then expand with textbook details
 
-    **RESPONSE STYLE:**
-    - Use clear, structured formatting (bullet points, numbered lists)
-    - Explain concepts step-by-step for student understanding
-    - Avoid asking what to do next - just provide the answer
-    - Be professional and academically rigorous
-    - Do NOT mention tasks, suggestions, or what students should do
+## FORMATTING RULES (strict)
+Always structure your response using EXACTLY this markdown:
 
-    **FOR QUIZ ANSWERS:**
-    - Evaluate student answers with full explanations
-    - Provide the correct answer with reasoning from the textbook
-    - Give immediate feedback without asking follow-up questions
+## Main Topic
+**Key Term** — brief definition. [Page X]
 
-    **FOR EXPLANATIONS:**
-    - Structure with headings and sub-points
-    - Include page references: [Page X]
-    - Make it student-friendly but academically accurate
-    """
+### Subtopic / Mechanism
+- **Point one** with detailed textbook explanation. [Page X]
+- **Point two** — causal chain, consequences, related concepts. [Page X]
+- Use `sub-concepts` sparingly for emphasis.
+
+### Key Takeaways
+1. First takeaway with page reference.
+2. Second takeaway with page reference.
+
+## BEHAVIOR RULES
+- **Be concise** — answer directly in 3-6 paragraphs max
+- **Be deep** — when explaining, include mechanisms, causes, effects, and interconnections from the textbook
+- Never ask follow-up questions or suggest what the student should do next
+- Never mention "I'd be happy to" or "Let me know if"
+- Never include meta-commentary about your response
+- If asked to evaluate an answer: state if correct/incorrect, explain why using textbook, cite the page
+- If asked to generate a quiz: output questions with **bold** key terms and [Page X] references"""
 
     try:
         messages = [{"role": "system", "content": system_instruction}]
@@ -102,9 +115,9 @@ def get_professor_response(user_input: str, history: list) -> str:
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
             messages=messages,
-            temperature=0.2,
-            max_tokens=2000,
-            top_p=0.9,
+            temperature=0.3,
+            max_tokens=3000,
+            top_p=0.95,
         )
 
         result = response.choices[0].message.content
