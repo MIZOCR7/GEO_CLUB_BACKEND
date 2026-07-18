@@ -26,7 +26,7 @@ if not gemini_api_key:
 genai.configure(api_key=gemini_api_key)
 
 # استخدمنا الموديل المستقر والمثالي لتجنب مشاكل الـ Quota المزعجة
-model = genai.GenerativeModel("gemini-2.5-flash")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 CLUB_INFO = {
     "name": "Geology Club",

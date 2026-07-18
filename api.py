@@ -30,7 +30,7 @@ if not gemini_api_key:
     sys.exit(1)
 
 genai.configure(api_key=gemini_api_key)
-model = genai.GenerativeModel("gemini-2.5-flash")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 CLUB_INFO = {
     "name": "Geology Club",
