@@ -1,551 +1,646 @@
-Contents 
-Preface 000 
-1 An Introduction 
-to Geology 1 
-The Science of Geology 2 
-Geology, People, and the Environment 2 
-Historical Notes about Geology 4 
-Catastrophism 4; The Birth of Modern Geology 5; 
-Geology Today 5 
-Geologic Time 6 
-The Nature of Scientific Inquiry 9 
-Hypothesis 9; Theory 10; Scientific Methods 10; 
-Do Glaciers Move? An Application of the Scientific 
-Method 11 
-? Earth's Spheres 12 
-Hydrosphere 13; Atmosphere 13; Biosphere 13; 
-Geosphere 14 
-Earth as a System 14 
-Earth System Science 14; The Earth System 15 
-? The Rock Cycle: One of Earth's 
-Subsystems 17 
-The Basic Cycle 19; Alternative Paths 19 
-Early Evolution of Earth 19 
-Origins of Planet Earth 19; Formation of Earth's 
-Layered Structure 21 
-? Earth's Internal Structure 21 
-Earth's Crust 22; Earth's Mantle 22; 
-Earth's Core 23 
-? The Face of Earth 23 
-Features of the Continents 23; Features of the 
-Ocean Basins 25 
-? Dynamic Earth 27 
-The Theory of Plate Tectonics 27; Plate 
-Boundaries 28 
-The Chapter in Review 31 Key Terms 32 
-Questions for Review 33 Online Study 
-Guide 33 
-2 Minerals: Building Blocks 
-of Rocks 34 
-? Minerals: Building Blocks of Rocks 36 
-Elements: Building Blocks of Minerals 37 
-Why Atoms Bond 39 
-Ionic Bonds: Electrons Transferred 40; Covalent 
-Bonds: Electrons Shared 40; Other Bonds 41 
-Isotopes and Radioactive Decay 41 
-? Properties of Minerals 42 
-Optical Properties 42; Crystal Shape or Habit 42; 
-Mineral Strength 43; Density and Specific 
-Gravity 45; Other Properties of Minerals 45 
-? Mineral Groups 46 
-? The Silicates 46 
-The Silicon-Oxygen Tetrahedron 46; Joining 
-Silicate Structures 47 
-? Common Silicate Minerals 49 
-The Light Silicates 49; The Dark Silicates 51 
-? Important Nonsilicate Minerals 51 
-Mineral Resources 53 
-The Chapter in Review 55 Key Terms 56 
-Questions for Review 56 Online Study 
-Guide 57 
-3 Igneous Rocks 58 
-? Magma: The Parent Material of Igneous 
-Rock 60 
-The Nature of Magma 60; From Magma to 
-Crystalline Rock 61 
-? Igneous Textures 62 
-Factors Affecting Crystal Size 62; Types of Igneous 
-Textures 62 
-? Igneous Compositions 65 
-Granitic (Felsic) versus Basaltic (Mafic) 
-Compositions 65; Other Compositional Groups 66; 
-Silica Content as an Indicator of Composition 62 
-? Naming Igneous Rocks 67 
-Felsic (Granitic) Igneous Rocks 68; Intermediate 
-(Andesitic) Igneous Rocks 69; Mafic (Basaltic) 
-Igneous Rocks 70; Pyroclastic Rocks 70 
-Origin of Magma 70 
-Generating Magma from Solid Rock 71 
-How Magmas Evolve 72 
-Bowen's Reaction Series and the Composition of 
-Igneous Rocks 72; Magmatic Differentiation 73; 
-Assimilation and Magma Mixing 74; Partial 
-Melting and Magma Composition 74 
-Mineral Resources and Igneous Processes 76 
-The Chapter in Review 78 Key Terms 79 
-Questions for Review 79 Online Study Guide 79 
-4 Volcanoes and Other 
-Igneous Activity 80 
-Mount St. Helens versus Kilauea 82 
-? The Nature of Volcanic Eruptions 82 
-Factors Affecting Viscosity 83; Why Do Volcanoes 
-Erupt? 84 
-Materials Extruded during an Eruption 85 
-Lava Flows 85; Gasses 87; Pyroclastic Materials 88 
-? Volcanic Structures and Eruptive Styles 89 
-Anatomy of a Volcano 89; Shield Volcanoes 90; 
-Cinder Cones 92; Composite Cones 93 
-Living in the Shadow of a Composite 
-Cone 94 
-Eruption of Vesuvius A.D. 79 94; Nuee Ardente: A 
-Deadly Pyroclastic Flow 95; Lahars: Mudflows on 
-Active and Inactive Cones 96 
-Other Volcanic Landforms 96 
-Calderas 96; Fissure Eruptions and Basalt 
-Plateaus 98; Lava Domes 98; Volcanic Pipes and 
-Necks 99 
-? Intrusive Igneous Activity 100 
-Nature of Plutons 100; Dikes 100; 
-Sills and Laccoliths 101; Batholiths 102 
-Plate Tectonics and Igneous Activity 103 
-Igneous Activity at Convergent Plate 
-Boundaries 106; Igneous Activity at Divergent Plate 
-Boundaries 106; Intraplate Igneous Activity 107 
-Can Volcanoes Change Earth's Climate? 108 
-The Basic Premise 108; Three Modern 
-Examples 108 
-The Chapter in Review 109 Key Terms 110 
-Questions for Review 110 Online Study 
-Guide 111 
-5 Weathering 
-and Soils 112 
-? Earth's External Processes 114 
-? Weathering 115 
-? Mechanical Weathering 115 
-Frost Wedging 116; Salt Crystal Growth 116; 
-Unloading 116; Biological Activity 117 
-? Chemical Weathering 118 
-Water and Carbonic Acid 118; How Granite 
-Weathers 118; Weathering of Silicate Minerals 119; 
-Spheroidal Weathering 120 
-? Rates of Weathering 120 
-Rock Characteristics 120; Climate 121; 
-Differential Weathering 121 
-Soil 122 
-An Interface in the Earth System 122; What Is Soil? 123 
-Controls of Soil Formation 123 
-Parent Material 123; Time 124; Climate 124; 
-Plants and Animals 124; Topography 125 
-The Soil Profile 126 
-Classifying Soils 127 
-Clearing the Tropical Rain Forest-A Case 
-Study of Human Impact on Soil 128 
-Soil Erosion 130 
-How Soil Is Eroded 130; Rates of Erosion 131; 
-Sedimentation and Chemical Pollution 131 
-Weathering and Ore Deposits 132 
-Bauxite 132; Other Deposits 132 
-The Chapter in Review 133 Key Terms 134 
-Questions for Review 135 Online Study 
-Guide 135 
-6 Sedimentary 
-Rocks 136 
-The Importance of Sedimentary Rocks 138 
-? Origins of Sedimentary Rock 138 
-? Detrital Sedimentary Rocks 139 
-Shale 140; Sandstone 141; Conglomerate and 
-Breccia 143 
-? Chemical Sedimentary Rocks 144 
-Limestone 144; Dolostone 146; Chert 147; 
-Evaporites 148 
-Coal-an Organic Sedimentary Rock 148 
-Turning Sediment into Sedimentary Rock: 
-Diagenesis and Lithification 149 
-Classification of Sedimentary Rocks 150 
-? Sedimentary Rocks Represent Past 
-Environments 151 
-Sedimentary Structures 154 
-Nonmetallic Mineral Resources from 
-Sedimentary Rocks 156 
-Energy Resources from Sedimentary 
-Rocks 157 
-Coal 157; Oil and Natural Gas 158 
-The Carbon Cycle and Sedimentary 
-Rocks 158 
-The Chapter in Review 159 Key Terms 160 
-Questions for Review 161 Online Study Guide 161 
-7 Metamorphic Rocks 162 
-? Metamorphism 164 
-? What Drives Metamorphism? 164 
-Heat as a Metamorphic Agent 164; Confining 
-Pressure and Differential Stress 166; Chemically 
-Active Fluids 167 
-? Metamorphic Textures 167 
-Foliation 167; Foliated Textures 168; Other 
-Metamorphic Textures 170 
-? Common Metamorphic Rocks 170 
-Foliated Rocks 170; Nonfoliated Rocks 172 
-Metamorphic Environments 173 
-Contact or Thermal Metamorphism 173; 
-Hydrothermal Metamorphism 174; Burial and 
-Subduction Zone Metamorphism 74; Regional 
-Metamorphism 175; Other Metamorphic 
-Environments 176 
-Metamorphic Zones 177 
-Textural Variations 177; Index Minerals and 
-Metamorphic Grade 178 
-The Chapter in Review 179 Key Terms 180 
-Questions for Review 180 Online Study 
-Guide 181 
-8 Mass Wasting: 
-The Work of Gravity 182 
-Landslides as Natural Disasters 183 
-Mass Wasting and Landform 
-Development 183 
-The Role of Mass Wasting 184; Slopes Change 
-through Time 184 
-? Controls and Triggers of Mass Wasting 186 
-The Role of Water 186; Oversteepened Slopes 187; 
-Removal of Vegetation 187; Earthquakes as 
-Triggers 188; Case Study: Landslide Hazards at La 
-Conchita, California 189; Landslides without 
-Triggers 190 
-Classification of Mass-Wasting 
-Processes 190 
-Type of Material 190; Type of Motion 191; Rate of 
-Movement 191 
-? Slump 192 
-? Rockslide 192 
-? Debris Flow 193 
-Debris Flows in Semiarid Regions 194; Lahars 194 
-? Earthflow 194 
-? Slow Movements 195 
-Creep 195; Solifluction 195 
-The Sensitive Permafrost Landscape 196 
-The Chapter in Review 197 Key Terms 197 
-Questions for Review 197 Online Study Guide 197 
-9 Running Water 198 
-? Earth as a System: The Hydrologic Cycle 200 
-? Running Water 202 
-Drainage Basins 202; River Systems 202 
-? Streamflow 203 
-Gradient and Channel Characteristics 204; 
-Discharge 204; Changes from Upstream to 
-Downstream 205 
-The Work of Running Water 206 
-Erosion 206; Transportation 206; Deposition 208 
-Stream Channels 208 
-Bedrock Channels 208; Alluvial Channels 208 
-Base Level and Stream Erosion 210 
-? Shaping Stream Valleys 211 
-Valley Deepening 211; Valley Widening 212; 
-Incised Meanders and Stream Terraces 212 
-Depositional Landforms 213 
-Deltas 213; Case Study: Coastal Wetlands Are 
-Vanishing on the Mississippi Delta 214; Natural 
-Levees 215; Alluvial Fans 215 
-? Drainage Patterns 216 
-Floods and Flood Control 216 
-Causes and Types of Floods 216; Flood Control 218 
-The Chapter in Review 219 Key Terms 220 
-Questions for Review 220 Online Study 
-Guide 221 
-10 Groundwater 222 
-? Importance of Groundwater 224 
-? Distribution of Groundwater 225 
-? The Water Table 226 
-Variations in the Water Table 226; Interaction 
-between Groundwater and Streams 226 
-Factors Influencing the Storage and 
-Movement of Groundwater 227 
-Porosity 227; Permeability, Aquitards, and 
-Aquifers 228 
-How Groundwater Moves 228 
-A Simple Groundwater Flow System 228; 
-Measuring Groundwater Movement 228 
-? Springs 229 
-? Wells 230 
-? Artesian Wells 231 
-Environmental Problems Associated with 
-Groundwater 232 
-Treating Groundwater as a Nonrenewable 
-Resource 232; Land Subsidence Caused by 
-Groundwater Withdrawal 233; Groundwater 
-Contamination 233 
-Hot Springs and Geysers 235 
-Geothermal Energy 236 
-The Geologic Work of Groundwater 238 
-Caverns 238; Karst Topography 240 
-The Chapter in Review 242 Key Terms 242 
-Questions for Review 243 Online Study 
-Guide 243 
-11 Glaciers and 
-Glaciation 244 
-? Glaciers: A Part of Two Basic Cycles 246 
-Valley (Alpine) Glaciers 247; Ice Sheets 247; 
-Other Types of Glaciers 248 
-Formation and Movement of Glacial Ice 248 
-Glacial Ice Formation 249; How Glaciers Move 249; 
-Rates of Glacial Movement 250; Budget of a 
-Glacier 250 
-Glacial Erosion 252 
-? Landforms Created by Glacial Erosion 254 
-Glaciated Valleys 255; Aretes and Horns 256; 
-Roches Moutonnees 256 
-? Glacial Deposits 257 
-Types of Glacial Drift 257; Moraines, Outwash 
-Plains, and Kettles 257; Drumlins, Eskers, and 
-Kames 260 
-Other Effects of Ice Age Glaciers 261 
-Crustal Subsidence and Rebound 261; Sea-Level 
-Changes 261; Rivers before and after the Ice 
-Age 262; Ice Dams Create Proglacial Lakes 262; 
-Pluvial Lakes 263 
-Glaciers of the Ice Age 263 
-Causes of Glaciation 264 
-Plate Tectonics 264; Variations in Earth's Orbit 265; 
-Other Factors 266 
-The Chapter in Review 267 Key Terms 268 
-Questions for Review 268 Online Study 
-Guide 269 
-12 Deserts and Wind 270 
-? Distribution and Causes of Dry Lands 272 
-Low-Latitude Deserts 272; Middle-Latitude 
-Deserts 273 
-? Geologic Processes in Arid Climates 274 
-Weathering 274; The Role of Water 275 
-? Basin and Range: The Evolution of a 
-Mountainous Desert Landscape 276 
-Transportation of Sediment by Wind 278 
-Bed Load 278; Suspended Load 278 
-? Wind Erosion 279 
-Deflation and Blowouts 279; Desert Pavement 280; 
-Ventifacts and Yardangs 281; Dust Bowl-An Environmental Disaster 282 
-Wind Deposits 283 
-Sand Deposits 283; Types of Sand Dunes 284; 
-Loess (Silt) Deposits 287 
-The Chapter in Review 287 Key Terms 288 
-Questions for Review 288 Online Study 
-Guide 289 
-13 Shorelines 290 
-The Shoreline: A Dynamic Interface 292 
-The Coastal Zone 292 
-? Waves 294 
-Wave Characteristics 295; Circular Orbital 
-Motion 295; Waves in the Surf Zone 296 
-? Wave Erosion 297 
-Sand Movement on the Beach 298 
-Movement Perpendicular to the Shoreline 298; 
-Wave Refraction 298; Beach Drift and Longshore 
-Currents 299 
-Shoreline Features 300 
-Erosional Features 300; Depositional Features 301; 
-The Evolving Shore 303 
-? Stabilizing the Shore 303 
-Hard Stabilization 304; Alternatives to Hard 
-Stabilization 306 
-Erosional Problems along U.S. Coasts 308 
-Atlantic and Gulf Coasts 308; Pacific Coast 308; 
-Coastal Vulnerability to Sea-Level Rise 308 
-Hurricanes-The Ultimate Coastal 
-Hazard 309 
-Storm Surge 310; Wind Damage 311; Inland 
-Flooding 311 
-Coastal Classification 311 
-Emergent Coasts 312; Submergent Coasts 312 
-Tides 313 
-Causes of Tides 313; Monthly Tidal Cycle 314; 
-Tidal Currents 314 
-The Chapter in Review 315 Key Terms 316 
-Questions for Review 316 Online Study 
-Guide 317 
-14 Earthquakes and 
-Earth's Interior 318 
-Loma Prieta and Northridge 
-Earthquakes 321 
-? What Is an Earthquake? 321 
-Earthquakes and Faults 322; Discovering the Cause 
-of Earthquakes 322; Foreshocks and 
-Aftershocks 323 
-San Andreas Fault: An Active Earthquake 
-Zone 323 
-? Seismology: The Study of Earthquake 
-Waves 324 
-? Locating an Earthquake 326 
-Measuring the Size of Earthquakes 327 
-Intensity Scales 328; Magnitude Scales 328 
-Destruction from Earthquakes 330 
-Damage from Seismic Vibrations 330; What Is a 
-Tsunami? 331; Landslides and Ground Subsidence 
-333; Fire 334 
-Damaging Earthquakes East of the 
-Rockies 334 
-Can Earthquakes Be Predicted? 335 
-Short-range Predictions 335; Long-range 
-Forecasts 336 
-? Probing Earth's Interior: "Seeing" Seismic 
-Waves 337 
-Formation of Earth's Layered Structure 338; 
-Earth's Internal Structure 338 
-The Chapter in Review 339 Key Terms 340 
-Questions for Review 340 Online Study 
-Guide 341 
-15 Plate Tectonics: 
-A Scientific Theory 
-Unfolds 342 
-From Continental Drift to Plate 
-Tectonics 344 
-Continental Drift: An Idea before Its 
-Time 345 
-Evidence: The Continental Jigsaw Puzzle 345; 
-Evidence: Fossils Match across the Sea 345; 
-Evidence: Rock Types and Structures Match 346; 
-Evidence: Ancient Climates 347 
-The Great Debate 348 
-? Plate Tectonics: The New Paradigm 349 
-Earth's Major Plates 349; Plate Boundaries 351 
-? Divergent Boundaries 352 
-Oceanic Ridges and Seafloor Spreading 352; 
-Continental Rifting 353 
-? Convergent Boundaries 354 
-Oceanic-Continental Convergence 356; 
-Oceanic-Oceanic Convergence 356; 
-Continental-Continental Convergence 357 
-? Transform Fault Boundaries 357 
-Testing the Plate Tectonics Model 358 
-Evidence: Ocean Drilling 358; Evidence: Hot 
-The Breakup of Pangaea 365 
-Measuring Plate Motion 366 
-What Drives Plate Motion? 366 
-Forces That Drive Plate Motion 367; Models of 
-Plate-Mantle Convection 367 
-Plate Tectonics into the Future 368 
-The Chapter in Review 369 Key Terms 370 
-Questions for Review 370 Online Study 
-Guide 371 
-16 Origin and Evolution 
-of the Ocean Floor 372 
-? An Emerging Picture of the Ocean Floor 000 
-Mapping the Seafloor 000; Viewing the Ocean Floor 
-from Space 000; Provinces of the Ocean Floor 000 
-Continental Margins 000 
-Passive Continental Margins 000; Active 
-Continental Margins 000 
-Features of Deep-Ocean Basins 000 
-Deep-Ocean Trenches 000; Abyssal Plains 000; 
-Seamounts, Guyots, and Oceanic Plateaus 000; 
-Explaining Coral Atolls-Darwin's Hypothesis 000 
-? Anatomy of the Oceanic Ridge 000 
-? Oceanic Ridges and Seafloor Spreading 000 
-Seafloor Spreading 000; Why Are Oceanic Ridges 
-Elevated? 000; Spreading Rates and Ridge 
-Topography 000 
-The Nature of Oceanic Crust 000 
-How Does Oceanic Crust Form? 000; Interactions 
-between Seawater and Oceanic Crust 000 
-? Continental Rifting: The Birth of a New 
-Ocean Basin 000 
-Evolution of an Ocean Basin 000 
-Destruction of Oceanic Lithosphere 000 
-Why Oceanic Lithosphere Subducts 000; 
-Subducting Plates: The Demise of an Ocean 
-Basin 000 
-The Chapter in Review 000 Key Terms 000 
-Questions for Review 000 Online Study 
-Guide 000 
-17 Crustal Deformation 
-and Mountain 
-Building 000 
-? Rock Deformation 000 
-Temperature and Confining Pressure 000; Rock 
-Type 000; Time 000 
-? Folds 000 
-Types of Folds 000; Domes and Basins 000 
-Faults 000 
-Dip-Slip Faults 000; Strike-Slip Faults 000 
-? Joints 000 
-? Mountain Building 000 
-Mountain Building at Subduction 
-Zones 000 
-Island Arcs 000; Mountain Building along Andeantype 
-Margins 000 
-? Collisional Mountain Ranges 000 
-Terranes and Mountain Building 000; Continental 
-Collisions 000 
-Fault-Block Mountains 000 
-Vertical Movements of the Crust 000 
-Isostasy 000; How High Is Too High? 000 
-The Chapter in Review 000 Key Terms 000 
-Questions for Review 000 Online Study 
-Guide 000 
-18 Geologic Time 000 
-Geology Needs a Time Scale 000 
-? Relative Dating-Key Principles 000 
-Principle of Original Horizontality 000; 
-Inclusions 000; Unconformities 000; Using 
-Relative Dating Principles 000 
-Correlation of Rock Layers 000 
-Fossils: Evidence of Past Life 000 
-Types of Fossils 000; Conditions Favoring 
-Preservation 000; Fossils and Correlation 000 
-? Dating with Radioactivity 000 
-Reviewing Basic Atomic Structure 000; 
-Radioactivity 000; Half-Life 000; Radiometric 
-Dating 000; Dating with Carbon-14 000; 
-Importance of Radiometric Dating 000; Using Tree 
-Rings to Date and Study the Recent Past 000 
-? The Geologic Time Scale 000 
-Structure of the Time Scale 000; Precambrian 
-Time 000 
-Difficulties in Dating the Geologic Time 
-Scale 000 
-The Chapter in Review 000 Key Terms 000 
-Questions for Review 000 Online Study 
-Guide 000 
-19 Earth's Evolution 
-through Geologic 
-Time 000 
-Is Earth Unique? 000 
-The Right Planet 000; The Right Location 000 
-The Right Time 000 
-Birth of a Planet 000 
-From Planetesimals to Protoplanets 000; 
-Earth's Early Evolution 000 
-Origin of the Atmosphere and Oceans 000 
-Earth's Primitive Atmosphere 000; Oxygen in the 
-Atmosphere 000; Evolution of the Oceans 000 
-Precambrian History: The Formation of 
-Earth's Continents 000 
-Earth's First Continents 000; The Making of North 
-America 000; Supercontinents of the 
-Precambrian 000 
-Phanerozoic History: The Formation of 
-Earth's Modern Continents 000 
-Paleozoic History 000; Mesozoic History 000; 
-Cenozoic History 000 
-Earth's First Life 000 
-Paleozoic Era: Life Explodes 000; Early Paleozoic 
-Life-Forms 000; Vertebrates Move to Land 000; 
-The Great Permian Extinction 000; Mesozoic Era: 
-Age of the Dinosaurs 000; Reptiles: The First True 
-Terrestrial Vertebrates 000; Demise of the 
-Dinosaurs 000 
-Cenozoic Era: Age of Mammals 000 
-From Reptiles to Mammals 000; Large Mammals 
-and Extinction 000 
-The Chapter in Review 000 Key Terms 000 
-Questions for Review 000 Online Study 
-Guide 000 
-Appendix A 
-Metric and English Units 
-Compared 000 
-Appendix B 
-Topographic Maps 000 
-Appendix C 
-Landforms of the Conterminous 
-United States 000 
-Glossary 000 
-Index 000
-Library of Congress Subject Headings for this publication:
+ESSENTIALS OF GEOLOGY - ULTIMATE KNOWLEDGE BASE REFERENCE
+===================================================================
 
-Geology -- Textbooks.
+CHAPTER 1: An Introduction to Geology (Pages 1-33)
+-------------------------------------------------------------------
+* The Science of Geology (Page 2)
+* Geology, People, and the Environment (Page 2)
+* Historical Notes about Geology (Page 4)
+  - Catastrophism (Page 4)
+  - The Birth of Modern Geology (Page 5)
+  - Geology Today (Page 5)
+* Geologic Time (Page 6)
+* The Nature of Scientific Inquiry (Page 9)
+  - Hypothesis (Page 9)
+  - Theory (Page 10)
+  - Scientific Methods (Page 10)
+  - Do Glaciers Move? An Application of the Scientific Method (Page 11)
+* Earth's Spheres (Page 12)
+  - Hydrosphere (Page 13)
+  - Atmosphere (Page 13)
+  - Biosphere (Page 13)
+  - Geosphere (Page 14)
+* Earth as a System (Page 14)
+  - Earth System Science (Page 14)
+  - The Earth System (Page 15)
+* The Rock Cycle: One of Earth's Subsystems (Page 17)
+  - The Basic Cycle (Page 19)
+  - Alternative Paths (Page 19)
+* Early Evolution of Earth (Page 19)
+  - Origins of Planet Earth (Page 19)
+  - Formation of Earth's Layered Structure (Page 21)
+* Earth's Internal Structure (Page 21)
+  - Earth's Crust (Page 22)
+  - Earth's Mantle (Page 22)
+  - Earth's Core (Page 23)
+* The Face of Earth (Page 23)
+  - Features of the Continents (Page 23)
+  - Features of the Ocean Basins (Page 25)
+* Dynamic Earth (Page 27)
+  - The Theory of Plate Tectonics (Page 27)
+  - Plate Boundaries (Page 28)
+* Review & Study Tools:
+  - The Chapter in Review (Page 31)
+  - Key Terms (Page 32)
+  - Questions for Review (Page 33)
+
+CHAPTER 2: Minerals: Building Blocks of Rocks (Pages 34-57)
+-------------------------------------------------------------------
+* Minerals: Building Blocks of Rocks (Page 36)
+* Elements: Building Blocks of Minerals (Page 37)
+* Why Atoms Bond (Page 39)
+  - Ionic Bonds: Electrons Transferred (Page 40)
+  - Covalent Bonds: Electrons Shared (Page 40)
+  - Other Bonds (Page 41)
+* Isotopes and Radioactive Decay (Page 41)
+* Properties of Minerals (Page 42)
+  - Optical Properties (Page 42)
+  - Crystal Shape or Habit (Page 42)
+  - Mineral Strength (Page 43)
+  - Density and Specific Gravity (Page 45)
+  - Other Properties of Minerals (Page 45)
+* Mineral Groups (Page 46)
+* The Silicates (Page 46)
+  - The Silicon-Oxygen Tetrahedron (Page 46)
+  - Joining Silicate Structures (Page 47)
+* Common Silicate Minerals (Page 49)
+  - The Light Silicates (Page 49)
+  - The Dark Silicates (Page 51)
+* Important Nonsilicate Minerals (Page 51)
+* Mineral Resources (Page 53)
+* Review & Study Tools:
+  - The Chapter in Review (Page 55)
+  - Key Terms (Page 56)
+  - Questions for Review (Page 56)
+
+CHAPTER 3: Igneous Rocks (Pages 58-79)
+-------------------------------------------------------------------
+* Magma: The Parent Material of Igneous Rock (Page 60)
+  - The Nature of Magma (Page 60)
+  - From Magma to Crystalline Rock (Page 61)
+* Igneous Textures (Page 62)
+  - Factors Affecting Crystal Size (Page 62)
+  - Types of Igneous Textures (Page 62)
+* Igneous Compositions (Page 65)
+  - Granitic (Felsic) versus Basaltic (Mafic) Compositions (Page 65)
+  - Other Compositional Groups (Page 66)
+  - Silica Content as an Indicator of Composition (Page 62)
+* Naming Igneous Rocks (Page 67)
+  - Felsic (Granitic) Igneous Rocks (Page 68)
+  - Intermediate (Andesitic) Igneous Rocks (Page 69)
+  - Mafic (Basaltic) Igneous Rocks (Page 70)
+  - Pyroclastic Rocks (Page 70)
+* Origin of Magma (Page 70)
+  - Generating Magma from Solid Rock (Page 71)
+* How Magmas Evolve (Page 72)
+  - Bowen's Reaction Series and the Composition of Igneous Rocks (Page 72)
+  - Magmatic Differentiation (Page 73)
+  - Assimilation and Magma Mixing (Page 74)
+  - Partial Melting and Magma Composition (Page 74)
+* Mineral Resources and Igneous Processes (Page 76)
+* Review & Study Tools:
+  - The Chapter in Review (Page 78)
+  - Key Terms (Page 79)
+  - Questions for Review (Page 79)
+
+CHAPTER 4: Volcanoes and Other Igneous Activity (Pages 80-111)
+-------------------------------------------------------------------
+* Mount St. Helens versus Kilauea (Page 82)
+* The Nature of Volcanic Eruptions (Page 82)
+  - Factors Affecting Viscosity (Page 83)
+  - Why Do Volcanoes Erupt? (Page 84)
+* Materials Extruded during an Eruption (Page 85)
+  - Lava Flows (Page 85)
+  - Gasses (Page 87)
+  - Pyroclastic Materials (Page 88)
+* Volcanic Structures and Eruptive Styles (Page 89)
+  - Anatomy of a Volcano (Page 89)
+  - Shield Volcanoes (Page 90)
+  - Cinder Cones (Page 92)
+  - Composite Cones (Page 93)
+* Living in the Shadow of a Composite Cone (Page 94)
+  - Eruption of Vesuvius A.D. 79 (Page 94)
+  - Nuee Ardente: A Deadly Pyroclastic Flow (Page 95)
+  - Lahars: Mudflows on Active and Inactive Cones (Page 96)
+* Other Volcanic Landforms (Page 96)
+  - Calderas (Page 96)
+  - Fissure Eruptions and Basalt Plateaus (Page 98)
+  - Lava Domes (Page 98)
+  - Volcanic Pipes and Necks (Page 99)
+* Intrusive Igneous Activity (Page 100)
+  - Nature of Plutons (Page 100)
+  - Dikes (Page 100)
+  - Sills and Laccoliths (Page 101)
+  - Batholiths (Page 102)
+* Plate Tectonics and Igneous Activity (Page 103)
+  - Igneous Activity at Convergent Plate Boundaries (Page 106)
+  - Igneous Activity at Divergent Plate Boundaries (Page 106)
+  - Intraplate Igneous Activity (Page 107)
+* Can Volcanoes Change Earth's Climate? (Page 108)
+  - The Basic Premise (Page 108)
+  - Three Modern Examples (Page 108)
+* Review & Study Tools:
+  - The Chapter in Review (Page 109)
+  - Key Terms (Page 110)
+  - Questions for Review (Page 110)
+
+CHAPTER 5: Weathering and Soils (Pages 112-135)
+-------------------------------------------------------------------
+* Earth's External Processes (Page 114)
+* Weathering (Page 115)
+* Mechanical Weathering (Page 115)
+  - Frost Wedging (Page 116)
+  - Salt Crystal Growth (Page 116)
+  - Unloading (Page 116)
+  - Biological Activity (Page 117)
+* Chemical Weathering (Page 118)
+  - Water and Carbonic Acid (Page 118)
+  - How Granite Weathers (Page 118)
+  - Weathering of Silicate Minerals (Page 119)
+  - Spheroidal Weathering (Page 120)
+* Rates of Weathering (Page 120)
+  - Rock Characteristics (Page 120)
+  - Climate (Page 121)
+  - Differential Weathering (Page 121)
+* Soil (Page 122)
+  - An Interface in the Earth System (Page 122)
+  - What Is Soil? (Page 123)
+* Controls of Soil Formation (Page 123)
+  - Parent Material (Page 123)
+  - Time (Page 124)
+  - Climate (Page 124)
+  - Plants and Animals (Page 124)
+  - Topography (Page 125)
+* The Soil Profile (Page 126)
+* Classifying Soils (Page 127)
+* Clearing the Tropical Rain Forest—A Case Study of Human Impact on Soil (Page 128)
+* Soil Erosion (Page 130)
+  - How Soil Is Eroded (Page 130)
+  - Rates of Erosion (Page 131)
+  - Sedimentation and Chemical Pollution (Page 131)
+* Weathering and Ore Deposits (Page 132)
+  - Bauxite (Page 132)
+  - Other Deposits (Page 132)
+* Review & Study Tools:
+  - The Chapter in Review (Page 133)
+  - Key Terms (Page 134)
+  - Questions for Review (Page 135)
+
+CHAPTER 6: Sedimentary Rocks (Pages 136-161)
+-------------------------------------------------------------------
+* The Importance of Sedimentary Rocks (Page 138)
+* Origins of Sedimentary Rock (Page 138)
+* Detrital Sedimentary Rocks (Page 139)
+  - Shale (Page 140)
+  - Sandstone (Page 141)
+  - Conglomerate and Breccia (Page 143)
+* Chemical Sedimentary Rocks (Page 144)
+  - Limestone (Page 144)
+  - Dolostone (Page 146)
+  - Chert (Page 147)
+  - Evaporites (Page 148)
+* Coal—an Organic Sedimentary Rock (Page 148)
+* Turning Sediment into Sedimentary Rock: Diagenesis and Lithification (Page 149)
+* Classification of Sedimentary Rocks (Page 150)
+* Sedimentary Rocks Represent Past Environments (Page 151)
+* Sedimentary Structures (Page 154)
+* Nonmetallic Mineral Resources from Sedimentary Rocks (Page 156)
+* Energy Resources from Sedimentary Rocks (Page 157)
+  - Coal (Page 157)
+  - Oil and Natural Gas (Page 158)
+* The Carbon Cycle and Sedimentary Rocks (Page 158)
+* Review & Study Tools:
+  - The Chapter in Review (Page 159)
+  - Key Terms (Page 160)
+  - Questions for Review (Page 161)
+
+CHAPTER 7: Metamorphic Rocks (Pages 162-181)
+-------------------------------------------------------------------
+* Metamorphism (Page 164)
+* What Drives Metamorphism? (Page 164)
+  - Heat as a Metamorphic Agent (Page 164)
+  - Confining Pressure and Differential Stress (Page 166)
+  - Chemically Active Fluids (Page 167)
+* Metamorphic Textures (Page 167)
+  - Foliation (Page 167)
+  - Foliated Textures (Page 168)
+  - Other Metamorphic Textures (Page 170)
+* Common Metamorphic Rocks (Page 170)
+  - Foliated Rocks (Page 170)
+  - Nonfoliated Rocks (Page 172)
+* Metamorphic Environments (Page 173)
+  - Contact or Thermal Metamorphism (Page 173)
+  - Hydrothermal Metamorphism (Page 174)
+  - Burial and Subduction Zone Metamorphism (Page 174)
+  - Regional Metamorphism (Page 175)
+  - Other Metamorphic Environments (Page 176)
+* Metamorphic Zones (Page 177)
+  - Textural Variations (Page 177)
+  - Index Minerals and Metamorphic Grade (Page 178)
+* Review & Study Tools:
+  - The Chapter in Review (Page 179)
+  - Key Terms (Page 180)
+  - Questions for Review (Page 180)
+
+CHAPTER 8: Mass Wasting: The Work of Gravity (Pages 182-197)
+-------------------------------------------------------------------
+* Landslides as Natural Disasters (Page 183)
+* Mass Wasting and Landform Development (Page 183)
+  - The Role of Mass Wasting (Page 184)
+  - Slopes Change through Time (Page 184)
+* Controls and Triggers of Mass Wasting (Page 186)
+  - The Role of Water (Page 186)
+  - Oversteepened Slopes (Page 187)
+  - Removal of Vegetation (Page 187)
+  - Earthquakes as Triggers (Page 188)
+  - Case Study: Landslide Hazards at La Conchita, California (Page 189)
+  - Landslides without Triggers (Page 190)
+* Classification of Mass-Wasting Processes (Page 190)
+  - Type of Material (Page 190)
+  - Type of Motion (Page 191)
+  - Rate of Movement (Page 191)
+* Slump (Page 192)
+* Rockslide (Page 192)
+* Debris Flow (Page 193)
+  - Debris Flows in Semiarid Regions (Page 194)
+  - Lahars (Page 194)
+* Earthflow (Page 194)
+* Slow Movements (Page 195)
+  - Creep (Page 195)
+  - Solifluction (Page 195)
+* The Sensitive Permafrost Landscape (Page 196)
+* Review & Study Tools:
+  - The Chapter in Review (Page 197)
+  - Key Terms (Page 197)
+  - Questions for Review (Page 197)
+
+CHAPTER 9: Running Water (Pages 198-221)
+-------------------------------------------------------------------
+* Earth as a System: The Hydrologic Cycle (Page 200)
+* Running Water (Page 202)
+  - Drainage Basins (Page 202)
+  - River Systems (Page 202)
+* Streamflow (Page 203)
+  - Gradient and Channel Characteristics (Page 204)
+  - Discharge (Page 204)
+  - Changes from Upstream to Downstream (Page 205)
+* The Work of Running Water (Page 206)
+  - Erosion (Page 206)
+  - Transportation (Page 206)
+  - Deposition (Page 208)
+* Stream Channels (Page 208)
+  - Bedrock Channels (Page 208)
+  - Alluvial Channels (Page 208)
+* Base Level and Stream Erosion (Page 210)
+* Shaping Stream Valleys (Page 211)
+  - Valley Deepening (Page 211)
+  - Valley Widening (Page 212)
+  - Incised Meanders and Stream Terraces (Page 212)
+* Depositional Landforms (Page 213)
+  - Deltas (Page 213)
+  - Case Study: Coastal Wetlands Are Vanishing on the Mississippi Delta (Page 214)
+  - Natural Levees (Page 215)
+  - Alluvial Fans (Page 215)
+* Drainage Patterns (Page 216)
+* Floods and Flood Control (Page 216)
+  - Causes and Types of Floods (Page 216)
+  - Flood Control (Page 218)
+* Review & Study Tools:
+  - The Chapter in Review (Page 219)
+  - Key Terms (Page 220)
+  - Questions for Review (Page 220)
+
+CHAPTER 10: Groundwater (Pages 222-243)
+-------------------------------------------------------------------
+* Importance of Groundwater (Page 224)
+* Distribution of Groundwater (Page 225)
+* The Water Table (Page 226)
+  - Variations in the Water Table (Page 226)
+  - Interaction between Groundwater and Streams (Page 226)
+* Factors Influencing the Storage and Movement of Groundwater (Page 227)
+  - Porosity (Page 227)
+  - Permeability, Aquitards, and Aquifers (Page 228)
+* How Groundwater Moves (Page 228)
+  - A Simple Groundwater Flow System (Page 228)
+  - Measuring Groundwater Movement (Page 228)
+* Springs (Page 229)
+* Wells (Page 230)
+* Artesian Wells (Page 231)
+* Environmental Problems Associated with Groundwater (Page 232)
+  - Treating Groundwater as a Nonrenewable Resource (Page 232)
+  - Land Subsidence Caused by Groundwater Withdrawal (Page 233)
+  - Groundwater Contamination (Page 233)
+* Hot Springs and Geysers (Page 235)
+* Geothermal Energy (Page 236)
+* The Geologic Work of Groundwater (Page 238)
+  - Caverns (Page 238)
+  - Karst Topography (Page 240)
+* Review & Study Tools:
+  - The Chapter in Review (Page 242)
+  - Key Terms (Page 242)
+  - Questions for Review (Page 243)
+
+CHAPTER 11: Glaciers and Glaciation (Pages 244-269)
+-------------------------------------------------------------------
+* Glaciers: A Part of Two Basic Cycles (Page 246)
+  - Valley (Alpine) Glaciers (Page 247)
+  - Ice Sheets (Page 247)
+  - Other Types of Glaciers (Page 248)
+* Formation and Movement of Glacial Ice (Page 248)
+  - Glacial Ice Formation (Page 249)
+  - How Glaciers Move (Page 249)
+  - Rates of Glacial Movement (Page 250)
+  - Budget of a Glacier (Page 250)
+* Glacial Erosion (Page 252)
+* Landforms Created by Glacial Erosion (Page 254)
+  - Glaciated Valleys (Page 255)
+  - Aretes and Horns (Page 256)
+  - Roches Moutonnees (Page 256)
+* Glacial Deposits (Page 257)
+  - Types of Glacial Drift (Page 257)
+  - Moraines, Outwash Plains, and Kettles (Page 257)
+  - Drumlins, Eskers, and Kames (Page 260)
+* Other Effects of Ice Age Glaciers (Page 261)
+  - Crustal Subsidence and Rebound (Page 261)
+  - Sea-Level Changes (Page 261)
+  - Rivers before and after the Ice Age (Page 262)
+  - Ice Dams Create Proglacial Lakes (Page 262)
+  - Pluvial Lakes (Page 263)
+* Glaciers of the Ice Age (Page 263)
+* Causes of Glaciation (Page 264)
+  - Plate Tectonics (Page 264)
+  - Variations in Earth's Orbit (Page 265)
+  - Other Factors (Page 266)
+* Review & Study Tools:
+  - The Chapter in Review (Page 267)
+  - Key Terms (Page 268)
+  - Questions for Review (Page 268)
+
+CHAPTER 12: Deserts and Wind (Pages 270-289)
+-------------------------------------------------------------------
+* Distribution and Causes of Dry Lands (Page 272)
+  - Low-Latitude Deserts (Page 272)
+  - Middle-Latitude Deserts (Page 273)
+* Geologic Processes in Arid Climates (Page 274)
+  - Weathering (Page 274)
+  - The Role of Water (Page 275)
+* Basin and Range: The Evolution of a Mountainous Desert Landscape (Page 276)
+* Transportation of Sediment by Wind (Page 278)
+  - Bed Load (Page 278)
+  - Suspended Load (Page 278)
+* Wind Erosion (Page 279)
+  - Deflation and Blowouts (Page 279)
+  - Desert Pavement (Page 280)
+  - Ventifacts and Yardangs (Page 281)
+  - Dust Bowl—An Environmental Disaster (Page 282)
+* Wind Deposits (Page 283)
+  - Sand Deposits (Page 283)
+  - Types of Sand Dunes (Page 284)
+  - Loess (Silt) Deposits (Page 287)
+* Review & Study Tools:
+  - The Chapter in Review (Page 287)
+  - Key Terms (Page 288)
+  - Questions for Review (Page 288)
+
+CHAPTER 13: Shorelines (Pages 290-317)
+-------------------------------------------------------------------
+* The Shoreline: A Dynamic Interface (Page 292)
+* The Coastal Zone (Page 292)
+* Waves (Page 294)
+  - Wave Characteristics (Page 295)
+  - Circular Orbital Motion (Page 295)
+  - Waves in the Surf Zone (Page 296)
+* Wave Erosion (Page 297)
+* Sand Movement on the Beach (Page 298)
+  - Movement Perpendicular to the Shoreline (Page 298)
+  - Wave Refraction (Page 298)
+  - Beach Drift and Longshore Currents (Page 299)
+* Shoreline Features (Page 300)
+  - Erosional Features (Page 300)
+  - Depositional Features (Page 301)
+  - The Evolving Shore (Page 303)
+* Stabilizing the Shore (Page 303)
+  - Hard Stabilization (Page 304)
+  - Alternatives to Hard Stabilization (Page 306)
+* Erosional Problems along U.S. Coasts (Page 308)
+  - Atlantic and Gulf Coasts (Page 308)
+  - Pacific Coast (Page 308)
+  - Coastal Vulnerability to Sea-Level Rise (Page 308)
+* Hurricanes—The Ultimate Coastal Hazard (Page 309)
+  - Storm Surge (Page 310)
+  - Wind Damage (Page 311)
+  - Inland Flooding (Page 311)
+* Coastal Classification (Page 311)
+  - Emergent Coasts (Page 312)
+  - Submergent Coasts (Page 312)
+* Tides (Page 313)
+  - Causes of Tides (Page 313)
+  - Monthly Tidal Cycle (Page 314)
+  - Tidal Currents (Page 314)
+* Review & Study Tools:
+  - The Chapter in Review (Page 315)
+  - Key Terms (Page 316)
+  - Questions for Review (Page 316)
+
+CHAPTER 14: Earthquakes and Earth's Interior (Pages 318-341)
+-------------------------------------------------------------------
+* Loma Prieta and Northridge Earthquakes (Page 321)
+* What Is an Earthquake? (Page 321)
+  - Earthquakes and Faults (Page 322)
+  - Discovering the Cause of Earthquakes (Page 322)
+  - Foreshocks and Aftershocks (Page 323)
+* San Andreas Fault: An Active Earthquake Zone (Page 323)
+* Seismology: The Study of Earthquake Waves (Page 324)
+* Locating an Earthquake (Page 326)
+* Measuring the Size of Earthquakes (Page 327)
+  - Intensity Scales (Page 328)
+  - Magnitude Scales (Page 328)
+* Destruction from Earthquakes (Page 330)
+  - Damage from Seismic Vibrations (Page 330)
+  - What Is a Tsunami? (Page 331)
+  - Landslides and Ground Subsidence (Page 333)
+  - Fire (Page 334)
+* Damaging Earthquakes East of the Rockies (Page 334)
+* Can Earthquakes Be Predicted? (Page 335)
+  - Short-range Predictions (Page 335)
+  - Long-range Forecasts (Page 336)
+* Probing Earth's Interior: "Seeing" Seismic Waves (Page 337)
+  - Formation of Earth's Layered Structure (Page 338)
+  - Earth's Internal Structure (Page 338)
+* Review & Study Tools:
+  - The Chapter in Review (Page 339)
+  - Key Terms (Page 340)
+  - Questions for Review (Page 340)
+
+CHAPTER 15: Plate Tectonics: A Scientific Theory Unfolds (Pages 342-371)
+-------------------------------------------------------------------
+* From Continental Drift to Plate Tectonics (Page 344)
+* Continental Drift: An Idea before Its Time (Page 345)
+  - Evidence: The Continental Jigsaw Puzzle (Page 345)
+  - Evidence: Fossils Match across the Sea (Page 345)
+  - Evidence: Rock Types and Structures Match (Page 346)
+  - Evidence: Ancient Climates (Page 347)
+* The Great Debate (Page 348)
+* Plate Tectonics: The New Paradigm (Page 349)
+  - Earth's Major Plates (Page 349)
+  - Plate Boundaries (Page 351)
+* Divergent Boundaries (Page 352)
+  - Oceanic Ridges and Seafloor Spreading (Page 352)
+  - Continental Rifting (Page 353)
+* Convergent Boundaries (Page 354)
+  - Oceanic-Continental Convergence (Page 356)
+  - Oceanic-Oceanic Convergence (Page 356)
+  - Continental-Continental Convergence (Page 357)
+* Transform Fault Boundaries (Page 357)
+* Testing the Plate Tectonics Model (Page 358)
+  - Evidence: Ocean Drilling (Page 358)
+  - Evidence: Hot Spots and Mantle Plumes (Page 359)
+  - Evidence: Paleomagnetism (Page 361)
+* The Breakup of Pangaea (Page 365)
+* Measuring Plate Motion (Page 366)
+* What Drives Plate Motion? (Page 366)
+  - Forces That Drive Plate Motion (Page 367)
+  - Models of Plate-Mantle Convection (Page 367)
+* Plate Tectonics into the Future (Page 368)
+* Review & Study Tools:
+  - The Chapter in Review (Page 369)
+  - Key Terms (Page 370)
+  - Questions for Review (Page 370)
+
+CHAPTER 16: Origin and Evolution of the Ocean Floor (Sequential Target)
+-------------------------------------------------------------------
+* An Emerging Picture of the Ocean Floor
+  - Mapping the Seafloor
+  - Viewing the Ocean Floor from Space
+  - Provinces of the Ocean Floor
+* Continental Margins
+  - Passive Continental Margins
+  - Active Continental Margins
+* Features of Deep-Ocean Basins
+  - Deep-Ocean Trenches
+  - Abyssal Plains
+  - Seamounts, Guyots, and Oceanic Plateaus
+  - Explaining Coral Atolls—Darwin's Hypothesis
+* Anatomy of the Oceanic Ridge
+* Oceanic Ridges and Seafloor Spreading
+  - Seafloor Spreading
+  - Why Are Oceanic Ridges Elevated?
+  - Spreading Rates and Ridge Topography
+* The Nature of Oceanic Crust
+  - How Does Oceanic Crust Form?
+  - Interactions between Seawater and Oceanic Crust
+* Continental Rifting: The Birth of a New Ocean Basin
+  - Evolution of an Ocean Basin
+* Destruction of Oceanic Lithosphere
+  - Why Oceanic Lithosphere Subducts
+  - Subducting Plates: The Demise of an Ocean Basin
+* Review & Study Tools:
+  - The Chapter in Review
+  - Key Terms
+  - Questions for Review
+
+CHAPTER 17: Crustal Deformation and Mountain Building (Sequential Target)
+-------------------------------------------------------------------
+* Rock Deformation
+  - Temperature and Confining Pressure
+  - Rock Type
+  - Time
+* Folds
+  - Types of Folds
+  - Domes and Basins
+* Faults
+  - Dip-Slip Faults
+  - Strike-Slip Faults
+* Joints
+* Mountain Building
+* Mountain Building at Subduction Zones
+  - Island Arcs
+  - Mountain Building along Andean-type Margins
+* Collisional Mountain Ranges
+  - Terranes and Mountain Building
+  - Continental Collisions
+* Fault-Block Mountains
+* Vertical Movements of the Crust
+  - Isostasy
+  - How High Is Too High?
+* Review & Study Tools:
+  - The Chapter in Review
+  - Key Terms
+  - Questions for Review
+
+CHAPTER 18: Geologic Time (Sequential Target)
+-------------------------------------------------------------------
+* Geology Needs a Time Scale
+* Relative Dating—Key Principles
+  - Principle of Original Horizontality
+  - Inclusions
+  - Unconformities
+  - Using Relative Dating Principles
+* Correlation of Rock Layers
+* Fossils: Evidence of Past Life
+  - Types of Fossils
+  - Conditions Favoring Preservation
+  - Fossils and Correlation
+* Dating with Radioactivity
+  - Reviewing Basic Atomic Structure
+  - Radioactivity
+  - Half-Life
+  - Radiometric Dating
+  - Dating with Carbon-14
+  - Importance of Radiometric Dating
+  - Using Tree Rings to Date and Study the Recent Past
+* The Geologic Time Scale
+  - Structure of the Time Scale
+  - Precambrian Time
+* Difficulties in Dating the Geologic Time Scale
+* Review & Study Tools:
+  - The Chapter in Review
+  - Key Terms
+  - Questions for Review
+
+CHAPTER 19: Earth's Evolution through Geologic Time (Sequential Target)
+-------------------------------------------------------------------
+* Is Earth Unique?
+  - The Right Planet
+  - The Right Location
+  - The Right Time
+* Birth of a Planet
+  - From Planetesimals to Protoplanets
+  - Earth's Early Evolution
+* Origin of the Atmosphere and Oceans
+  - Earth's Primitive Atmosphere
+  - Oxygen in the Atmosphere
+  - Evolution of the Oceans
+* Precambrian History: The Formation of Earth's Continents
+  - Earth's First Continents
+  - The Making of North America
+  - Supercontinents of the Precambrian
+* Phanerozoic History: The Formation of Earth's Modern Continents
+  - Paleozoic History
+  - Mesozoic History
+  - Cenozoic History
+* Earth's First Life
+* Paleozoic Era: Life Explodes
+  - Early Paleozoic Life-Forms
+  - Vertebrates Move to Land
+  - The Great Permian Extinction
+* Mesozoic Era: Age of the Dinosaurs
+  - Reptiles: The First True Terrestrial Vertebrates
+  - Demise of the Dinosaurs
+* Cenozoic Era: Age of Mammals
+  - From Reptiles to Mammals
+  - Large Mammals and Extinction
+* Review & Study Tools:
+  - The Chapter in Review
+  - Key Terms
+  - Questions for Review
+
+===================================================================
+APPENDICES & REFERENCE MATERIAL
+===================================================================
+* Appendix A: Metric and English Units Compared
+* Appendix B: Topographic Maps
+* Appendix C: Landforms of the Conterminous United States
+* Glossary of Geological Terms
+* Index of Reference Topics
+===================================================================
