@@ -150,7 +150,7 @@ if "api" in query_params:
 # ==========================================
 # 4. DASHBOARD INTERFACE
 # ==========================================
-st.title("Geology Club - API Server")
+st.title("Geology Club - AI Professor")
 st.success("Your Backend API is Live and Fully Operational!")
 
 st.markdown("""
@@ -158,5 +158,26 @@ st.markdown("""
 - **Health Check:** `https://geoclub-backend.streamlit.app/?api=health`
 - **Chat:** `https://geoclub-backend.streamlit.app/?api=chat&message=YOUR_QUESTION`
 """)
+
+st.divider()
+st.subheader("Ask the AI Professor")
+
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+
+for msg in st.session_state.messages:
+    with st.chat_message(msg["role"]):
+        st.markdown(msg["content"])
+
+if prompt := st.chat_input("Type your geology question here..."):
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("user"):
+        st.markdown(prompt)
+
+    with st.chat_message("assistant"):
+        with st.spinner("Thinking..."):
+            reply = get_professor_response(prompt, st.session_state.messages[:-1])
+        st.markdown(reply)
+    st.session_state.messages.append({"role": "assistant", "content": reply})
 
 st.info("When sending requests from the frontend, make sure to URL-encode the message if it contains spaces or special characters.")
