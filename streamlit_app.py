@@ -100,7 +100,7 @@ def get_professor_response(user_input: str, history: list) -> str:
         messages.append({"role": "user", "content": user_input})
 
         response = client.chat.completions.create(
-            model="llama-3.3-70b-specdec",
+            model="llama-3.3-70b-versatile",
             messages=messages,
             temperature=0.2,
             max_tokens=2000,
