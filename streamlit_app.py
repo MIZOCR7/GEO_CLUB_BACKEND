@@ -162,7 +162,7 @@ if "api" in query_params:
             st.stop()
 
         bot_reply = get_professor_response(user_message, history=[])
-        st.json({"response": bot_reply})
+        st.markdown(f"<!--GRS-->{bot_reply}<!--GRE-->")
         st.stop()
 
 # ==========================================
