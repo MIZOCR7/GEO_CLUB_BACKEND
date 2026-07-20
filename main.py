@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 from pathlib import Path
 from contextlib import asynccontextmanager
 from typing import List
@@ -33,6 +34,26 @@ CLUB_INFO = {
     "vice_presidents": [{"name": "Amir", "phone": "+20 123 456 7891"}, {"name": "Dosouky", "phone": "+20 123 456 7892"}],
 }
 
+TOC_PATH = BASE_DIR / "table_of_contents.json"
+BOOK_TOC = ""
+if TOC_PATH.exists():
+    try:
+        with open(TOC_PATH, encoding="utf-8") as f:
+            toc_data = json.load(f)
+        lines = [f"Book: {toc_data['book_title']}"]
+        for ch in toc_data["table_of_contents"]:
+            lines.append(f"\nChapter {ch['chapter_number']}: {ch['title']} (p. {ch['page']})")
+            for sec in ch["sections"]:
+                lines.append(f"  - {sec}")
+        if toc_data.get("appendices"):
+            lines.append("\nAppendices:")
+            for ap in toc_data["appendices"]:
+                lines.append(f"  - {ap['title']} (p. {ap['page']})")
+        BOOK_TOC = "\n".join(lines)
+        print("Table of contents loaded.")
+    except Exception as e:
+        print(f"Error loading TOC: {e}")
+
 DB_FOLDER_NAME = "geology_club_final_db"
 DB_PATH = BASE_DIR / DB_FOLDER_NAME
 embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
@@ -52,7 +73,7 @@ async def lifespan(app: FastAPI):
             vector_db = FAISS.load_local(str(DB_PATH), embedding_model, allow_dangerous_deserialization=True)
             print("Database loaded successfully.")
         except Exception as e:
-            print(f"⚠️ Error loading DB: {e}")
+            print(f"Error loading DB: {e}")
     else:
         print("No database found! Please run the builder script first.")
     
@@ -113,10 +134,14 @@ def get_professor_response(user_input: str, history: List[Message]) -> str:
 TEXTBOOK CONTEXT:
 {context_str}
 
+TABLE OF CONTENTS:
+{BOOK_TOC}
+
 YOUR ROLE:
 - Answer geology questions using the TEXTBOOK CONTEXT above
 - If the context lacks the answer, say so — never make up information
 - Cite every factual claim: [Page X] or [Source: type | Page: X]
+- Use the TABLE OF CONTENTS to guide the student to the right chapter
 - Format with ## headings, **bold** key terms, - bullet lists
 
 RESPONSE STYLE:

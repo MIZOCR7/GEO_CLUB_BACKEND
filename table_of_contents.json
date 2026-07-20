@@ -1,0 +1,276 @@
+{
+  "book_title": "Essentials of Geology",
+  "table_of_contents": [
+    {
+      "chapter_number": 1,
+      "title": "An Introduction to Geology",
+      "page": 1,
+      "sections": [
+        "The Science of Geology (p. 2)",
+        "Geology, People, and the Environment (p. 3)",
+        "Historical Notes about Geology (p. 4)",
+        "Geologic Time (p. 6)",
+        "The Nature of Scientific Inquiry (p. 8)",
+        "Earth's Spheres (p. 11)",
+        "Earth as a System (p. 15)",
+        "The Rock Cycle: One of Earth's Subsystems (p. 18)",
+        "Early Evolution of Earth (p. 20)",
+        "Earth's Internal Structure (p. 23)",
+        "The Face of Earth (p. 24)",
+        "Dynamic Earth & Theory of Plate Tectonics (p. 28)"
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "title": "Matter and Minerals",
+      "page": 36,
+      "sections": [
+        "Minerals: Building Blocks of Rocks (p. 38)",
+        "Atoms: Building Blocks of Minerals (p. 40)",
+        "Physical Properties of Minerals (p. 44)",
+        "Mineral Groups (p. 49)",
+        "Common Silicate Minerals (p. 51)",
+        "Important Nonsilicate Minerals (p. 55)",
+        "Mineral Resources (p. 56)"
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "title": "Igneous Rocks and Intrusive Activity",
+      "page": 62,
+      "sections": [
+        "Magma: The Parent Material of Igneous Rock (p. 64)",
+        "Igneous Compositions (p. 65)",
+        "Igneous Textures: What Can They Tell Us? (p. 67)",
+        "Naming Igneous Rocks (p. 71)",
+        "Origin of Magma (p. 76)",
+        "Intrusive Igneous Activity (p. 80)",
+        "Mineral Resources and Igneous Processes (p. 84)"
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "title": "Volcanoes and Volcanic Hazards",
+      "page": 90,
+      "sections": [
+        "The Nature of Volcanic Eruptions (p. 93)",
+        "Materials Extruded during an Eruption (p. 95)",
+        "Volcanic Structures and Eruptive Styles (p. 99)",
+        "Other Volcanic Landforms (p. 108)",
+        "Plate Tectonics and Volcanic Activity (p. 113)",
+        "Living with Volcanoes & Volcanic Hazards (p. 118)"
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "title": "Weathering and Soils",
+      "page": 122,
+      "sections": [
+        "Earth's External Processes (p. 124)",
+        "Mechanical Weathering (p. 125)",
+        "Chemical Weathering (p. 128)",
+        "Rates of Weathering (p. 131)",
+        "Soil & Controls of Soil Formation (p. 133)",
+        "The Soil Profile & Classifying Soils (p. 137)",
+        "Soil Erosion (p. 141)",
+        "Weathering and Ore Deposits (p. 144)"
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "title": "Sedimentary Rocks",
+      "page": 148,
+      "sections": [
+        "Origins of Sedimentary Rock (p. 150)",
+        "Detrital Sedimentary Rocks (p. 152)",
+        "Chemical Sedimentary Rocks (p. 156)",
+        "Turning Sediment into Sedimentary Rock: Diagenesis and Lithification (p. 161)",
+        "Classification of Sedimentary Rocks (p. 162)",
+        "Sedimentary Rocks Represent Past Environments (p. 163)",
+        "Nonmetallic & Energy Resources from Sedimentary Rocks (p. 168)"
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "title": "Metamorphism and Metamorphic Rocks",
+      "page": 176,
+      "sections": [
+        "What Is Metamorphism? (p. 178)",
+        "What Drives Metamorphism? (p. 178)",
+        "Metamorphic Textures (p. 181)",
+        "Common Metamorphic Rocks (p. 185)",
+        "Metamorphic Environments (p. 188)",
+        "Metamorphic Zones & Index Minerals (p. 191)"
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "title": "Mass Wasting: The Work of Gravity",
+      "page": 196,
+      "sections": [
+        "Landslides as Natural Disasters (p. 198)",
+        "Mass Wasting and Landform Development (p. 199)",
+        "Controls and Triggers of Mass Wasting (p. 200)",
+        "Classification of Mass-Wasting Processes (p. 205)",
+        "Slump, Rockslide, Debris Flow, Earthflow (pp. 207-210)",
+        "Slow Movements (Creep, Solifluction, Permafrost) (p. 211)"
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "title": "Running Water",
+      "page": 214,
+      "sections": [
+        "Earth as a System: The Hydrologic Cycle (p. 216)",
+        "Running Water & Streamflow (pp. 218-219)",
+        "The Work of Running Water (p. 222)",
+        "Stream Channels & Shaping Stream Valleys (pp. 224-228)",
+        "Depositional Landforms (p. 230)",
+        "Drainage Patterns (p. 232)",
+        "Floods and Flood Control (p. 233)"
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "title": "Groundwater",
+      "page": 238,
+      "sections": [
+        "Importance & Distribution of Groundwater (pp. 240-243)",
+        "The Water Table & Groundwater Movement (pp. 243-246)",
+        "Springs, Wells, and Artesian Wells (pp. 247-248)",
+        "Environmental Problems Associated with Groundwater (p. 250)",
+        "Hot Springs, Geysers, and Geothermal Energy (pp. 252-254)",
+        "The Geologic Work of Groundwater (Caverns, Karst) (p. 255)"
+      ]
+    },
+    {
+      "chapter_number": 11,
+      "title": "Glaciers and Glaciation",
+      "page": 260,
+      "sections": [
+        "Glaciers: A Part of Two Basic Cycles (p. 262)",
+        "Formation and Movement of Glacial Ice (p. 265)",
+        "Landforms Created by Glacial Erosion (p. 270)",
+        "Glacial Deposits (p. 274)",
+        "Other Effects of Ice Age Glaciers (p. 278)",
+        "Glaciers of the Ice Age & Causes of Glaciation (pp. 280-281)"
+      ]
+    },
+    {
+      "chapter_number": 12,
+      "title": "Deserts and Wind",
+      "page": 286,
+      "sections": [
+        "Distribution and Causes of Dry Lands (p. 288)",
+        "Geologic Processes in Arid Climates (p. 291)",
+        "Basin and Range Landscape Evolution (p. 293)",
+        "Transportation of Sediment by Wind & Wind Erosion (pp. 295-297)",
+        "Wind Deposits (Sand Dunes & Loess) (p. 299)"
+      ]
+    },
+    {
+      "chapter_number": 13,
+      "title": "Shorelines",
+      "page": 306,
+      "sections": [
+        "The Shoreline: A Dynamic Interface (p. 308)",
+        "Waves & Wave Erosion (pp. 310-313)",
+        "Shoreline Features (Erosional & Depositional) (p. 316)",
+        "Stabilizing the Shore & Coastal Erosion (pp. 319-323)",
+        "Profile of a Hurricane & Coastal Classification (pp. 325-328)",
+        "Tides (p. 330)"
+      ]
+    },
+    {
+      "chapter_number": 14,
+      "title": "Earthquakes and Earth's Interior",
+      "page": 334,
+      "sections": [
+        "What Is An Earthquake? (p. 336)",
+        "Seismology: The Study of Earthquake Waves (p. 339)",
+        "Locating the Source & Measuring Size (pp. 342-343)",
+        "Earthquake Belts, Destruction, and Tsunamis (pp. 346-350)",
+        "Can Earthquakes Be Predicted? (p. 352)",
+        "Earth's Interior & Internal Structure (p. 355)"
+      ]
+    },
+    {
+      "chapter_number": 15,
+      "title": "Plate Tectonics: A Scientific Revolution Unfolds",
+      "page": 360,
+      "sections": [
+        "From Continental Drift To Plate Tectonics (p. 362)",
+        "Plate Boundaries (Divergent, Convergent, Transform) (pp. 369-376)",
+        "Testing the Plate Tectonics Model (Hot Spots, Paleomagnetism) (p. 378)",
+        "How Is Plate Motion Measured? (p. 384)",
+        "What Drives Plate Motions? (Mantle Convection) (p. 386)"
+      ]
+    },
+    {
+      "chapter_number": 16,
+      "title": "Origin and Evolution of the Ocean Floor",
+      "page": 392,
+      "sections": [
+        "Mapping & Viewing the Ocean Floor (p. 394)",
+        "Continental Margins & Deep-Ocean Basins (pp. 397-399)",
+        "Anatomy of the Oceanic Ridge & Seafloor Spreading (pp. 402-403)",
+        "Continental Rifting & Destruction of Oceanic Lithosphere (pp. 407-409)"
+      ]
+    },
+    {
+      "chapter_number": 17,
+      "title": "Crustal Deformation and Mountain Building",
+      "page": 414,
+      "sections": [
+        "Crustal Deformation (Elastic, Brittle, Ductile) (p. 416)",
+        "Structures Formed by Ductile & Brittle Deformation (Folds, Faults, Joints) (pp. 418-424)",
+        "Mountain Building & Collisional Mountain Belts (pp. 425-427)",
+        "Fault-Block Mountains & Isostasy (pp. 431-432)"
+      ]
+    },
+    {
+      "chapter_number": 18,
+      "title": "Geologic Time",
+      "page": 436,
+      "sections": [
+        "Geology Needs a Time Scale (p. 438)",
+        "Relative Dating—Key Principles & Unconformities (pp. 438-442)",
+        "Fossils: Evidence of Past Life (p. 445)",
+        "Dating with Radioactivity & Radiometric Dating (pp. 449-452)",
+        "The Geologic Time Scale (p. 455)"
+      ]
+    },
+    {
+      "chapter_number": 19,
+      "title": "Earth's Evolution through Geologic Time",
+      "page": 460,
+      "sections": [
+        "Is Earth Unique? Birth of a Planet (pp. 462-465)",
+        "Origin of the Atmosphere and Oceans (p. 467)",
+        "Precambrian History: Formation of Earth's Continents (p. 468)",
+        "Geologic History of the Phanerozoic (p. 473)",
+        "Earth's First Life & Paleozoic, Mesozoic, Cenozoic Eras (pp. 477-487)"
+      ]
+    },
+    {
+      "chapter_number": 20,
+      "title": "Global Climate Change",
+      "page": 492,
+      "sections": [
+        "Climate and Geology Are Linked (p. 494)",
+        "How Is Climate Change Detected? (Proxy Data) (p. 496)",
+        "Atmospheric Basics & Heating the Atmosphere (pp. 499-502)",
+        "The Greenhouse Effect & Natural Causes of Climate Change (pp. 504-505)",
+        "Human Impact on Global Climate & CO2 Levels (p. 509)",
+        "Possible Consequences of Global Warming (p. 516)"
+      ]
+    }
+  ],
+  "appendices": [
+    { "title": "Appendix A: Metric and English Units Compared", "page": 475 },
+    { "title": "Appendix B: Topographic Maps", "page": 477 },
+    { "title": "Appendix C: Landforms of the Conterminous United States", "page": 481 },
+    { "title": "Glossary", "page": 483 },
+    { "title": "Index", "page": 493 }
+  ]
+}
