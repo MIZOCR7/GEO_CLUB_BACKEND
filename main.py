@@ -45,19 +45,19 @@ vector_db = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global vector_db
-    print("🚀 API Starting... Loading Knowledge Base...")
+    print("API Starting... Loading Knowledge Base...")
     
     if os.path.exists(DB_PATH):
         try:
             vector_db = FAISS.load_local(str(DB_PATH), embedding_model, allow_dangerous_deserialization=True)
-            print("✅ Database loaded successfully.")
+            print("Database loaded successfully.")
         except Exception as e:
             print(f"⚠️ Error loading DB: {e}")
     else:
-        print("⚠️ No database found! Please run the builder script first.")
+        print("No database found! Please run the builder script first.")
     
     yield
-    print("🛑 API Shutting down...")
+    print("API Shutting down...")
 
 # ==========================================
 # 3. APP DEFINITION
