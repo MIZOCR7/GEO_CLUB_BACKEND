@@ -181,17 +181,30 @@ def get_professor_response(user_input: str, history: List[Message]) -> str:
 # 6. ENDPOINTS
 # ==========================================
 @app.get("/")
+@app.get("/api/health")
 def health_check():
     return {"status": "running", "club": CLUB_INFO["name"]}
 
+@app.get("/api/chat")
+def chat_get(message: str = "", history: str = ""):
+    if not message:
+        raise HTTPException(status_code=400, detail="Message parameter is required")
+    try:
+        bot_reply = get_professor_response(message, [])
+        return {"response": bot_reply, "status": "success"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/chat", response_model=ChatResponse)
 @app.post("/chat", response_model=ChatResponse)
 def chat_endpoint(request: ChatRequest):
     if not request.message:
         raise HTTPException(status_code=400, detail="Message cannot be empty")
-    
-    bot_reply = get_professor_response(request.message, request.history)
-    
-    return ChatResponse(response=bot_reply)
+    try:
+        bot_reply = get_professor_response(request.message, request.history)
+        return {"response": bot_reply, "status": "success"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
     import uvicorn
