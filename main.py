@@ -108,89 +108,9 @@ class ChatResponse(BaseModel):
     response: str
 
 # ==========================================
-# 5. GEOLOGY KEYWORDS (lightweight domain check)
+# 5. CORE LOGIC
 # ==========================================
-GEOLOGY_KEYWORDS = [
-    "geolog", "mineral", "rock", "igneous", "sedimentary", "metamorphic",
-    "magma", "lava", "volcano", "volcanic", "earthquake", "seismic",
-    "fault", "fold", "mountain", "plate tectonic", "continental drift",
-    "fossil", "paleontolog", "dinosaur", "erosion", "weathering",
-    "deposit", "sediment", "stratigraph", "crust", "mantle", "core",
-    "groundwater", "aquifer", "glacier", "glacial", "desert", "shoreline",
-    "ocean floor", "seafloor", "hydrologic cycle", "crystal", "gem",
-    "ore", "mining", "earth science", "geologic time", "carbon cycle",
-    "rock cycle", "soil", "landslide", "mass wasting", "flood",
-    "river", "stream", "cave", "karst", "hot spring", "geyser",
-    "geothermal", "fossil fuel", "coal", "oil", "natural gas",
-    "continental shelf", "subduction", "seafloor spread",
-    "convergent boundary", "divergent boundary", "transform boundary",
-    "lithosphere", "asthenosphere", "isostasy", "orogeny",
-    "metamorphism", "contact metamorphism", "regional metamorphism",
-    "porphyry", "batholith", "dike", "sill", "vein", "pluton",
-    "clastic", "chemical sediment", "biogenic", "evaporite",
-    "limestone", "sandstone", "shale", "granite", "basalt",
-    "gneiss", "schist", "slate", "marble", "quartz", "feldspar",
-    "mica", "olivine", "pyroxene", "amphibole", "calcite",
-    "halite", "gypsum", "hematite", "magnetite", "pyrite",
-    "gold", "silver", "copper", "iron", "aluminum",
-    "earth interior", "seismic wave", "p-wave", "s-wave",
-    "magnetic reversal", "paleomagnetism", "hot spot",
-    "continental margin", "abyssal plain", "mid-ocean ridge",
-    "trench", "accretionary wedge", "terrane", "suture",
-    "stress", "strain", "anticline", "syncline", "joint",
-    "unconformity", "index fossil", "radiometric dating",
-    "half-life", "absolute age", "relative age",
-    "precambrian", "paleozoic", "mesozoic", "cenozoic",
-    "climate change", "global warming", "greenhouse gas",
-    "sea level rise", "carbonat", "silicate",
-    "extrusive", "intrusive", "porphyritic", "vesicular",
-    "felsic", "mafic", "intermediate", "ultramafic",
-    "detrital", "biochemical", "organic", "chemical",
-    "foliation", "parent rock", "protolith",
-    "aquiclude", "aquitard", "water table", "artesian",
-    "spring", "well", "porosity", "permeability",
-    "alluvial fan", "delta", "meander", "oxbow",
-    "drainage basin", "divide", "tributary",
-    "loess", "dune", "deflation", "abrasion",
-    "wave refraction", "longshore current", "beach",
-    "barrier island", "estuary", "lagoon",
-    "hanging valley", "cirque", "arete", "horn",
-    "moraine", "drumlin", "eskerr", "kettle",
-    "permafrost", "talik", "solifluction",
-    "petrolog", "geochemist", "geophysic",
-    "hydrogeolog", "geomorpholog", "sedimentolog",
-    "engineering geology", "environmental geology",
-    "economic geology", "historical geology",
-    "structural geology", "mineralog",
-    "earth material", "geologic hazard",
-    "tsunami", "volcanic eruption", "earthquake epicenter",
-    "focus", "hypocenter", "richter", "moment magnitude",
-    "mercalli", "liquefaction", "tsunami wave",
-    "orogeny", "craton", "shield", "platform",
-    "continental crust", "oceanic crust",
-    "moho", "gutenberg discontinuity",
-    "inner core", "outer core", "lower mantle",
-    "upper mantle", "transition zone",
-]
-
-# ==========================================
-# 6. CORE LOGIC
-# ==========================================
-def is_geology_question(text: str) -> bool:
-    lower = text.lower()
-    for kw in GEOLOGY_KEYWORDS:
-        if kw in lower:
-            return True
-    return False
-
 def get_professor_response(user_input: str, history: List[Message]) -> str:
-    if not is_geology_question(user_input):
-        return (
-            "I specialize only in geology and earth science. "
-            "Please ask a geology-related question such as rocks, minerals, "
-            "volcanoes, earthquakes, fossils, or other geological topics."
-        )
-
     context_str = ""
     if vector_db:
         try:
