@@ -1,8 +1,8 @@
 ---
 title: Geology Club AI Backend
 emoji: 🌋
-colorFrom: #C29B6D
-colorTo: #2B1B10
+colorFrom: yellow
+colorTo: gray
 sdk: docker
 pinned: false
 ---
