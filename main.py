@@ -2,37 +2,28 @@ import os
 import sys
 from pathlib import Path
 from contextlib import asynccontextmanager
-from typing import List, Optional
+from typing import List
 from dotenv import load_dotenv
 
-# FastAPI Imports
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-
-# AI Imports
-from openai import OpenAI
+from groq import Groq
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 
-# ==========================================
-# 1. SETUP & CONFIGURATION
-# ==========================================
 BASE_DIR = Path(__file__).parent
 dotenv_path = BASE_DIR / ".env"
 
 if dotenv_path.exists():
     load_dotenv(dotenv_path)
 
-github_token = os.getenv("GITHUB_TOKEN")
-if not github_token:
-    print("❌ CRITICAL ERROR: GITHUB_TOKEN not found.")
+groq_api_key = os.getenv("GROQ_API_KEY")
+if not groq_api_key:
+    print("CRITICAL ERROR: GROQ_API_KEY not found.")
     sys.exit(1)
 
-client = OpenAI(
-    base_url="https://models.github.ai/inference",
-    api_key=github_token,
-)
+client = Groq(api_key=groq_api_key)
 
 CLUB_INFO = {
     "name": "Geology Club",
@@ -96,86 +87,77 @@ class ChatResponse(BaseModel):
     response: str
 
 # ==========================================
-# 5. CORE LOGIC (SAFE VERSION)
+# 5. CORE LOGIC
 # ==========================================
 def get_professor_response(user_input: str, history: List[Message]) -> str:
-    # 1. Retrieve Context (RAG)
     context_str = ""
     if vector_db:
         try:
-            results = vector_db.similarity_search(user_input, k=4)
+            results = vector_db.similarity_search(user_input, k=6)
+            seen = set()
+            unique = []
+            for doc in results:
+                key = doc.page_content[:100]
+                if key not in seen:
+                    seen.add(key)
+                    unique.append(doc)
             context_str = "\n\n".join([
                 f"[Source: {doc.metadata.get('source_type')} | Page: {doc.metadata.get('page_number')}]\n{doc.page_content}"
-                for doc in results
+                for doc in unique
             ])
         except Exception as e:
             print(f"DB Search Error: {e}")
 
-    # 2. System Prompt (Professional, Accurate, No Task Suggestions)
-    system_instruction = f"""
-    You are the AI Professor for {CLUB_INFO['name']} at {CLUB_INFO['school']}.
+    system_instruction = f"""You are the AI Professor for {CLUB_INFO['name']} at {CLUB_INFO['school']}.
 
-    TEXTBOOK CONTEXT:
-    {context_str}
+TEXTBOOK CONTEXT:
+{context_str}
 
-    **YOUR ROLE:**
-    - Provide clear, accurate geology explanations based on textbook content
-    - Evaluate exam answers with precision
-    - Generate high-quality quizzes from course material
-    - Always cite Source and Page number when available
+YOUR ROLE:
+- Answer geology questions using the TEXTBOOK CONTEXT above
+- If the context lacks the answer, say so — never make up information
+- Cite every factual claim: [Page X] or [Source: type | Page: X]
+- Format with ## headings, **bold** key terms, - bullet lists
 
-    **RESPONSE STYLE:**
-    - Use clear, structured formatting (bullet points, numbered lists)
-    - Explain concepts step-by-step for student understanding
-    - Avoid asking what to do next - just provide the answer
-    - Be professional and academically rigorous
-    - Do NOT mention tasks, suggestions, or what students should do
-
-    **FOR QUIZ ANSWERS:**
-    - Evaluate student answers with full explanations
-    - Provide the correct answer with reasoning from the textbook
-    - Give immediate feedback without asking follow-up questions
-
-    **FOR EXPLANATIONS:**
-    - Structure with headings and sub-points
-    - Include page references: [Page X]
-    - Make it student-friendly but academically accurate
-    """
-
-    # 3. Build Safe Message Chain (Prevents "Jailbreak" Error)
-    messages = [{"role": "system", "content": system_instruction}]
-    
-    # Add History
-    for msg in history[-6:]:
-        # Map frontend roles to OpenAI roles
-        role = "user" if msg.role in ["Student", "user"] else "assistant"
-        messages.append({"role": role, "content": msg.content})
-    
-    # Add Current Question
-    messages.append({"role": "user", "content": user_input})
+RESPONSE STYLE:
+- Be concise but deep — include mechanisms, causes, effects
+- End with a ### References section listing every page cited
+- Never ask follow-up questions or suggest what to do next"""
 
     try:
+        messages = [{"role": "system", "content": system_instruction}]
+
+        for msg in history[-6:]:
+            role = "user" if msg.role in ["Student", "user"] else "assistant"
+            messages.append({"role": role, "content": msg.content})
+
+        messages.append({"role": "user", "content": user_input})
+
         response = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
             messages=messages,
-            model="gpt-4o",
-            temperature=0.2,  # Lower for better accuracy
-            max_tokens=2000,
-            top_p=0.9,
+            temperature=0.3,
+            max_tokens=3000,
+            top_p=0.95,
         )
+
         result = response.choices[0].message.content
         if not result or result.strip() == "":
-            return "⚠️ The AI professor couldn't generate a response. Please try rephrasing your question."
+            return "The AI professor couldn't generate a response. Please try rephrasing your question."
         return result
+
     except Exception as e:
         error_msg = str(e).lower()
         if "content_filter" in error_msg or "safety" in error_msg:
-            return "⚠️ Your message was flagged by our safety filter. Please try asking your question differently."
+            return "Your message was flagged by our safety filter. Please try asking your question differently."
         elif "timeout" in error_msg or "deadline" in error_msg:
-            return "⚠️ The response took too long. Please try again."
-        elif "401" in error_msg or "authentication" in error_msg:
-            return "⚠️ System authentication error. Please contact the administrator."
+            return "The response took too long. Please try again."
+        elif "401" in error_msg or "authentication" in error_msg or "unauthenticated" in error_msg:
+            return "System authentication error. Please check the API key."
+        elif "quota" in error_msg or "rate_limit" in error_msg:
+            return "API quota exceeded or Too Many Requests. Please wait a minute and try again."
         else:
-            return f"⚠️ Connection error. Please try again in a moment."
+            return f"Connection error: {str(e)}"
 
 # ==========================================
 # 6. ENDPOINTS
